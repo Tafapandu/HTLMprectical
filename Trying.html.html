@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Trying</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pizza Shop 2.0 Form</title>
+        <style>
+            table, th{
+                border: 3px solid gray;
+                border-collapse: collapse;
+            }
+            th{
+                text-align: left;
+            }
+            .pizza{
+                text-align: center;
+            }
+        </style>
+    </head>
+    </head>
+    <body style="background-image: url(pic1.jpg);">
+        <center>
+        <h1>To illustrate text formattiong tage</h1><br>
+        <marquee behavior="" direction="">tis is an altemate marquee text</marquee><br>
+        this is<i> italized</i><br>
+        this is <u>underlined</u><br>
+        this is<b>bold</b><br>
+       this is  <em>emphasized</em><br>
+        this is <strong>strong text</strong><br>
+       this is <strike>striked</strike><br>
+        this is<code> computer code</code><br>
+        this is<sup>superscript code</sup><br>
+        this is <sub>subscript code</sub><br>
+        this is <big>big code</big><br>
+        this is<small>small code</small><br>
+
+    </center>
+
+    An orddered nested list
+    <ul>
+        <li>coffe</li>
+        <li>Tea</li>
+        <ul>
+            <li>Black tea</li>
+            <li>Grean tea</li>
+            <ul>
+                <li>China</li>
+                <li>Africa</li>
+            </ul>
+        </ul>
+        <li>milk</li>
+    </ul>
+    A Definition list
+    <dl>
+        <dt>Bangalore</dt>
+        <dd>capital city of kamataka</dd>
+        <dt>mumbai</dt>
+        <dd>capital city of maharashtra</dd>
+    </dl><br>
+
+
+<center>
+    <table border="1">
+        <tr>
+            <th colspan="4"><center><h4>Table Heading Cell Spanning 4 colomns</h4></center></th>
+        </tr>
+        <tr>
+            <th>Normal cell</th>
+            <th colspan="2">Cell spanning 2 colomns</th>
+            <th>Normal cell</th>
+        </tr>
+        <tr>
+            <th rowspan="3" style="background-color:gray">Cell spanning <br>3 row with a gray <br>(US spelling) background</th>
+            <th>Normal cell</th>
+            <th>Normal cell</th>
+            <th>Normal cell</th>
+        </tr>
+        <tr>
+            <th>Normal cell</th>
+            <th rowspan="2" colspan="2">Cell spanning 2 rows 2 <br>colomns</th>
+        </tr>
+        <tr>
+            <th>Normal cell</th>
+        </tr>
+    </table>
+</center>
+<h1>Design the following web page using HTML forms</h1>
+<center>
+<form action="/submit" method="post">
+    <div class="form-group">
+        <label for="academic-information">Academic information</label>
+        <input type="text" id="academic-information" name="academic-information" required>
+    </div>
+    <div class="form-group">
+        <label for="degree">Degree</label>
+        <input type="text" id="degree" name="degree" required>
+    </div>
+    <div class="form-group">
+        <label for="student-id">Student ID</label>
+        <input type="text" id="student-id" name="student-id" required>
+    </div>
+    <div class="form-group">
+        <label for="geography">Geography</label>
+        <input type="text" id="geography" name="geography" required>
+    </div>
+    <div class="form-group">
+        <label for="mathematics">Mathematics</label>
+        <input type="text" id="mathematics" name="mathematics" required>
+    </div>
+    <div class="form-group">
+        <label for="classes-attended">Classes attended</label>
+        <input type="text" id="classes-attended" name="classes-attended" required>
+    </div>
+    <div class="form-group">
+        <label for="english">English</label>
+        <input type="text" id="english" name="english" required>
+    </div>
+    <div class="form-group">
+        <label for="personal-details">Personal Details</label>
+        <input type="text" id="personal-details" name="personal-details" required>
+    </div>
+    <div class="form-group">
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" name="first-name" required>
+    </div>
+    <div class="form-group">
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" name="last-name" required>
+    </div>
+    <div class="form-group">
+        <label for="gender">Gender</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+</body>
+</center>
+ <h1></h1>
+    <fieldset>
+    <legend>Academic information</legend>
+  <label for="referrer">Degree
+    <select id="referrer" name="referrer">
+      <option value="">Master of Business Administration </option>
+      <option value="1"> master 1</option>
+      <option value="2">master2</option>
+      <option value="3">master3</option>
+      <option value="4">Other</option>
+    </select>
+  </label><br>
+  <label for="first-name">Student ID <input id="first-name" name="first-name" type="text" required placeholder="Registration Number"></label>
+  <br>
+  <label for="referrer">Class attended
+    <select name="referrer" id="referrer">
+      <option value="">SAD</option>
+      <option value="">Web Application</option>
+      <option value="">Dababase(Oracle-2)</option>
+      <option value="">IS-framework</option>
+    </select>
+  </label>
+  </fieldset>
+      <fieldset>
+        <legend>Personal Details</legend>
+        <label for="First Name">First Name: <input id="First Name" name="First Name" type="text" required /></label><br>
+        <label for="last-name">last-name:  <input id="last-name" name="last-name" type="text"required /></label><br>
+        <label for="Male">Gender</label>
+        <label for="Female"></label><input type="radio" name="Gender" value="Female" />Female</label>
+        <label for="Male"></label><input type="radio" name="Gender" value="Male" />Male</label> <br>
+        <label for="email">Email: <input id="email" name="email" type="email" required /></label>
+      </fieldset>
+      <fieldset>
+          <textarea id="bio" name="bio" rows="7" cols="30" placeholder="TERMS AND CONDITIONS..."></textarea>
+        </label>
+      </fieldset>
+      <button>Send form</button> <button>Clear Form</button>
+    </form>
+    <center>
+<body>
+    <table>
+    </tr>
+        <th class="pizza" colspan="4"><h1>Pizza Shop 2.0 Form</h1></th>
+    <tr>
+    <tr>
+        <th>Name</th>
+        <th colspan="3"><input type="" name="" value="" placeholder="Pizzaring here"></th>
+    </tr>
+    <tr>
+        <th ><label for="pizza-topping">Pizza Topping</label></th>
+        <th>
+            <input type="radio" id="supreme" name="pizza-topping" value="supreme">
+            <label for="supreme">Supreme</label> <br>
+            <input type="radio" id="vegetarian" name="pizza-topping" value="vegetarian">
+            <label for="vegetarian">Vegetarian</label> <br>
+            <input type="radio" id="hawaiian" name="pizza-topping" value="hawaiian">
+            <label for="hawaiian">Hawaiian</label>
+        </th>
+    </tr>
+    <tr>
+        <th><label for="sauce">Pizza Sauce</label></th>
+        <th>
+            <select id="sauce" name="sauce">
+                <option value="tomato">Tomato</option>
+                <option value="extra-cheese">Extra Cheese</option>
+                <option value="gluten-free-base">Gluten Free Base</option>
+            </select>
+        </th>
+    </tr>
+    <tr text-align="left">
+        <th><label for="optional-extras">Optional Extras</label></th>
+        <th>
+            <input type="checkbox">Extra Cheese<input type="checkbox">Gluten Free Base
+        </th>
+    </tr>
+    <tr>
+        <th colspan="4">
+            Delivery Instructions:
+            <label for="delivery-instructions"></label> <br>
+            <textarea style="width:500px; height:60px"></textarea>
+        </th>
+    </tr>
+
+        <input type="button" value="Send my Order">
+    </table>
+</body>
+</center>
+    </body>
+</html>
